@@ -1,5 +1,6 @@
 
 
+// Controle de addEventListener
 const debounce = function(func,wait,immediate){
     let timeout;
     return function(...args){
@@ -18,7 +19,7 @@ const target = document.querySelectorAll('[data-anime]');
 
 const animateClas = 'animate';
 
-
+//Animação das Section
 function animeScroll(){
     const windowTop = window.scrollY  + ((window.innerHeight * 3) / 4); 
 
