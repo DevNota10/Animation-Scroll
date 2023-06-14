@@ -25,10 +25,10 @@ function animeScroll(){
 
     target.forEach((element)=>{
        if((windowTop) > element.offsetTop){
-        element.classList.add('animate')
+        element.classList.add(animateClas)
        }
        else{
-        element.classList.remove('animate')
+        element.classList.remove(animateClas)
        }
     })
 }
